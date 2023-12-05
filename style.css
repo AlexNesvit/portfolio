@@ -98,5 +98,9 @@ section {
     font-weight: 700;
     color: transparent;
     -webkit-text-stroke: .7px var(--main-color);
+}
 
+.home_content p {
+    font-size: 1.6rem;
+    margin: 2rem 0 4rem;
 }
