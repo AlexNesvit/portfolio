@@ -76,6 +76,9 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
+    background: url("") no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .home-content {
