@@ -185,5 +185,27 @@ section {
     border-radius: 50%;
     font-size: 20px;
     color: var(--main-color);
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
 
+.home-sci a:hover {
+    color: var(--bg-color) ;
+}
+
+.home-sci a::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 0;
+   height: 100%;
+   background: var(--main-color);
+   z-index: -1;
+   transition: .5s;
+}
+
+.home-sci a:hover::before {
+    width: 100%;
 }
