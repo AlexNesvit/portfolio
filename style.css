@@ -34,7 +34,7 @@ body {
     left: 0;
     width: 100%;
     padding: 2rem 9%;
-    background: yellowgreen;
+    background: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -64,5 +64,16 @@ body {
     font-size: 3.6rem;
     color: var(--text-color);
     cursor: pointer;
+    display: none;
 }
 
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    padding: 0 9%;
+}
