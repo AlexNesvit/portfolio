@@ -129,6 +129,24 @@ section {
     color: var(--bg-color);
     z-index: 1;
     overflow: hidden;
+    transition: .5s;
+}
+
+.btn-box .btn:hover {
+    color: var(--main-color);
+}
+
+.btn-box .btn:nth-child(2) {
+    background: transparent;
+    color: var(--main-color);
+}
+
+.btn-box .btn:nth-child(2):hover {
+    color: var(--bg-color);
+}
+
+.btn-box .btn:nth-child(2)::before {
+    background: var(--main-color);
 }
 
 .btn-box .btn::before {
@@ -138,7 +156,7 @@ section {
     left: 0;
     width: 0;
     height: 100%;
-    background: red;
+    background: var(--bg-color);
     z-index: -1;
     transition: .5s;
 }
