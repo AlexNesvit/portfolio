@@ -215,15 +215,15 @@ section {
 
 .home-imgHover {
     position: absolute;
-    top: 0;
+    top: 45;
     right: 0;
     width: 45%;
     height: 100%;
-    background: transparent;
+    background: var(--bg-color);
     transition: 3s;
+    opacity: .8;
 }
 
 .home-imgHover:hover {
-    background: var(--bg-color);
-    opacity: .8;
+    background: transparent;
 }
