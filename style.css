@@ -123,20 +123,20 @@ section {
     align-items: center;
     width: 15rem;
     height: 100%;
-    background: var(--main-color);
+    background: var(--bg-color);
     border: .2rem solid var(--main-color);
     border-radius: .8rem;
     font-size: 1.8rem;
     font-weight: 6;
     letter-spacing: .1rem;
-    color: var(--bg-color);
+    color: var(--main-color);
     z-index: 1;
     overflow: hidden;
     transition: .5s;
 }
 
 .btn-box .btn:hover {
-    color: var(--main-color);
+    color: var(--bg-color);
 }
 
 .btn-box .btn:nth-child(2) {
@@ -159,7 +159,7 @@ section {
     left: 0;
     width: 0;
     height: 100%;
-    background: var(--bg-color);
+    background: var(--main-color);
     z-index: -1;
     transition: .5s;
 }
