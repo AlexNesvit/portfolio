@@ -237,3 +237,28 @@ section {
     background: var(--second-bg-color);
     padding-bottom: 6rem;
 }
+
+.heading {
+    font-size: 5rem;
+    margin-bottom: 3rem;
+    text-align: center;   
+}
+
+span {
+    color: var(--main-color);
+}
+
+.about-img {
+    position: relative;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-img img {
+   width: 90%;
+   border-radius: 50%;
+   border: .2rem solid var(--main-color); 
+}
