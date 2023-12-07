@@ -91,6 +91,10 @@ section {
     line-height: 1.3;
 }
 
+.home-content h1 span {
+    color: var(--main-color);
+}
+
 .home-content .text-animate {
     position: relative;
     width: 32.8rem;
@@ -360,7 +364,7 @@ span {
     left: 0;
     width: 0;
     height: 100%;
-    background: var(--main-color);
+    background: var(--second-bg-color);
     z-index: -1;
     transition: .5s;
 }
