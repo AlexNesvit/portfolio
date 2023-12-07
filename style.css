@@ -391,7 +391,7 @@ span {
 .skills {
     min-height: auto;
     padding-bottom: 7rem;
-    background-color: var(--second-bg-color);
+    background-color: var(--bg-color);
 }
 
 .skills .skills-row {
