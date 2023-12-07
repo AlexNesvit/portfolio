@@ -602,7 +602,7 @@ span {
     left: 0;
     width: 0;
     height: 100%;
-    background: var(--second-bg-color);
+    background: var(--main-color);
     z-index: -1;
     transition: .5s;
 }
@@ -614,5 +614,10 @@ span {
 .footer-iconTop a i {
     font-size: 2.4rem;
     color: var(--main-color);
+    transition: .5s;
+}
+
+.footer-iconTop a:hover i {
+    color: var(--bg-color)
 }
 
