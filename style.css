@@ -705,6 +705,14 @@ span {
         display: block;
         font-size: 2rem;
         margin: 3rem 0;
+        transform: translateX(-20rem);
+        transition: .25s ease;
+        transition-delay: 0s;
+    }
+
+    .navbar.active a {
+        transform: translateX(0); 
+        transition-delay: .25s;
     }
 }
 
