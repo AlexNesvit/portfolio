@@ -743,6 +743,28 @@ span {
   }
 }
 
+@media (max-width: 462px) {
+    .home-content h1 {
+        font-size: 5.2rem;
+    }
+
+    .education {
+        padding: 10rem 4% 5rem 5%;
+    }
+
+    .contact form .input-box .input-field {
+        width: 100%;
+    }
+
+    .footer {
+       flex-direction: column-reverse; 
+    }
+
+    .footer p {
+        margin-top: 2rem;
+    }
+}
+
 
 
 
