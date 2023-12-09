@@ -125,7 +125,7 @@ section {
     top: 0;
     left: 0;
     width: 0;
-    height: 0;
+    height: 100%;
     border-right: 2px solid var(--main-color);
     z-index: -1;
     animation: homeCursorText 6s linear infinite;
