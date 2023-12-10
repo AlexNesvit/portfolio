@@ -693,7 +693,8 @@ span {
     animation: none;
 }
 
-.about.show-animate .animate.scroll {
+.about.show-animate .animate.scroll,
+.education.show-animate .animate.scroll {
     transition-delay: calc(.3s  * var(--i));
     width: 0;
 }
