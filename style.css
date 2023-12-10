@@ -363,11 +363,14 @@ span {
 }
 
 .education-column .title {
+    position: relative;
+    display: inline-block;
     font-size: 2.5rem;
     margin: 0 0 1.5rem 2rem;
 }
 
 .education-column .education-box {
+    position: relative;
     border-left: .2rem solid var(--main-color);
 }
 
@@ -691,6 +694,10 @@ span {
     transition: 1s ease;
     transition-delay: calc(.3s / var(--i));
     animation: none;
+}
+
+.education .education-box .animate.scroll {
+    width: 105%;
 }
 
 .about.show-animate .animate.scroll,
