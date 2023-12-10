@@ -280,7 +280,7 @@ section {
     align-items: center;
     flex-direction: column;
     gap: 2rem;
-    background: var(--second-bg-color);
+    background: var(--bg-color);
     padding-bottom: 6rem;
 }
 
@@ -319,8 +319,8 @@ span {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    border-top: .2rem solid var(--second-bg-color);
-    border-bottom: .2rem solid var(--second-bg-color);
+    border-top: .2rem solid var(--bg-color);
+    border-bottom: .2rem solid var(--bg-color);
     border-left: .2rem solid var(--main-color);
     border-right: .2rem solid var(--main-color);
     animation: aboutSpinner 8s linear infinite;
