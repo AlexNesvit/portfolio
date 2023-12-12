@@ -1,5 +1,5 @@
-# This is my portfolio [look](https://alexnesvit.github.io/portfolio/)
+# Salut, c'est mon tout premier portfolio [Regardez ici](https://alexnesvit.github.io/portfolio/)
 
-- HTML         40.6%
-- CSS          54.2%
-- JavaScript    5.2%
+## Je l'ai créé en utilisant fréquemment des compétences telles que HTML, CSS et JavaScript.
+
+### Vous avez la possibilité de télécharger mon CV complet en appuyant sur le bouton "Download CV".
