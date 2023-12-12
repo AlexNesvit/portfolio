@@ -2,4 +2,4 @@
 
 ### Je l'ai créé en utilisant fréquemment des compétences telles que HTML, CSS et JavaScript.
 
-#### Vous avez la possibilité de télécharger mon CV complet en appuyant sur le bouton "Download CV".
+#### Vous avez la possibilité de télécharger mon CV complet en appuyant sur le bouton "Voir mon CV".
