@@ -1,4 +1,4 @@
-# Salut, c'est mon tout premier portfolio [Regardez ici](https://alexnesvit.github.io/portfolio/)
+# Salut, c'est mon tout premier portfolio [regardez ici](https://alexnesvit.github.io/portfolio/)
 
 ## Je l'ai créé en utilisant fréquemment des compétences telles que HTML, CSS et JavaScript.
 
