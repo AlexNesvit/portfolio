@@ -1006,7 +1006,7 @@ span {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background: var(--main-color);
+    background: #00c09d;
     position: absolute;
 }
 .checkmark-circle .checkmark {
@@ -1121,7 +1121,7 @@ span {
     height: 45px;
     width: 200px;
     font-size: 15px;
-    background-color: var(--main-color);
+    background-color: var(--second-bg-color);
     color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 4px 0 rgba(87, 71, 81, .2);
@@ -1130,7 +1130,7 @@ span {
     transition: all 0.2s ease-out;
 }
 .submit-btn:hover {
-    background-color: var(--main-color);
+    background-color: #00c09d;
     transition: all 0.2s ease-out;
 }
 .congrats {
