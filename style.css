@@ -1150,6 +1150,12 @@ span {
     z-index: 100;
 }
 
+.dip {
+    font-size: 2rem;
+    color: var(--text-color);
+    padding-bottom: .5rem;
+}
+
 
 
 
