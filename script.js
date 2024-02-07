@@ -108,6 +108,16 @@ const Confettiful = function(el) {
   
   let test = document.querySelector('.recruter');
   test.addEventListener('click', start );
+
+  //button endanim
+  
+  const endanim = document.querySelector('#endanim');
+  endanim.addEventListener('click',() => {
+    const el = document.querySelector('.congrats');
+  const congratsEl = document.querySelector('.confetti-container');
+    congratsEl.style.display = 'none';
+    el.style.display = 'none';
+  });
   
   
   
