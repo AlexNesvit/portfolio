@@ -2,7 +2,7 @@
 
 ----
 
-### <div align="center">I created it using skills such as HTML, CSS, and JavaScript frequently</div>
+## <div align="center">I created it using skills such as HTML, CSS, and JavaScript frequently</div>
 
 ----
 
