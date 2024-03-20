@@ -1,4 +1,4 @@
-## <div align="center">🟣 Hi, this is my portfolio [look here](https://alexnesvit.github.io/portfolio/) Dev version🟣</div>
+## <div align="center">🟣 Hi, this is my portfolio [look here](https://alexnesvit.github.io/portfolio/) 🟣</div>
 
 ----
 
