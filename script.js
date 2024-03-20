@@ -48,9 +48,9 @@ window.onscroll = () => {
     footer.classList.toggle('show-animate', this.innerHeight + this.scrollY >= document.scrollingElement.scrollHeight);
 
     //animation portfolio scroll
-    let footer = document.querySelector('portfolio');
+    let portfolio = document.querySelector('portfolio');
 
-    footer.classList.toggle('show-animate', this.innerHeight + this.scrollY >= document.scrollingElement.scrollHeight);
+    portfolio.classList.toggle('show-animate', this.innerHeight + window.scrollY >= document.scrollingElement.scrollHeight);
 }
 // animation congrats
 
