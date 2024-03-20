@@ -568,13 +568,15 @@ span {
 
 /* Portfolio section */
 .portfolio {
-    background: var(--second-bg-color);
     min-height: auto;
-    padding-bottom: 10rem;
+    padding-bottom: 7rem;
+    background-color: var(--bg-color);
 }
 
 .portfolio h2 {
-    margin-bottom: 4rem;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .portfolio-container {
