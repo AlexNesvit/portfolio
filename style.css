@@ -53,6 +53,11 @@ body {
     font-weight: 600;
 }
 
+.logo:hover,
+.logo.active {
+    color: var(--main-color);
+}
+
 .navbar {
     position: relative;
 }
