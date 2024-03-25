@@ -1252,7 +1252,9 @@ span {
 }
 
 .services h2 {
-    margin-bottom: 5rem;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .services-container {
