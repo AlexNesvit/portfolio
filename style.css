@@ -540,15 +540,15 @@ span {
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(2) .bar span {
-    width: 80%;
+    width: 85%;
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(3) .bar span {
-    width: 65%;
+    width: 80%;
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span {
-    width: 65%;
+    width: 85%;
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span {
@@ -1244,6 +1244,55 @@ span {
     padding-bottom: .5rem;
 }
 
+/* about.html section services */
+
+.services {
+    min-height: auto;
+    padding-bottom: 10rem;
+}
+
+.services h2 {
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.services-container .services-box {
+    flex: 1 1 30rem;
+    background: var(--second-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+    transition: .5s ease;
+}
+
+.services-container .services-box:hover {
+    border-color: var(--main-color);
+    transform: scale(1.02);
+}
+
+.services-box i {
+    font-size: 7rem;
+    color: var(--main-color);
+}
+
+.services-box h3 {
+    font-size: 2.6rem;
+}
+
+.services-box p {
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+}
 
 
 
