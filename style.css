@@ -250,15 +250,15 @@ section {
 }
 
 .home-sci a::before {
-   content: '';
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 0;
-   height: 100%;
-   background: var(--main-color);
-   z-index: -1;
-   transition: .5s;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: var(--main-color);
+    z-index: -1;
+    transition: .5s;
 }
 
 .home-sci a:hover::before {
@@ -367,9 +367,9 @@ span {
 }
 
 .education .education-row {
-   display: flex;
-   flex-wrap: wrap;
-   gap: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
 }
 
 .education-row .education-column {
@@ -565,6 +565,13 @@ span {
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span {
     width: 90%;
+}
+
+.skill-note {
+    font-size: 1.4rem;     
+    color: var(--text-color);          
+    opacity: 0.8;         
+    margin-top: 4px;        
 }
 
 /* Portfolio section */
