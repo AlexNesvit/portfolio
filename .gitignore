@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Finder / Spotlight
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# Editors
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Dependencies and build output
+node_modules/
+dist/
+build/
