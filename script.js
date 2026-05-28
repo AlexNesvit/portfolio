@@ -2,9 +2,11 @@
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
-menuIcon.onclick = () => {
+if (menuIcon && navbar) {
+  menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
+  };
 }
 
 //scroll sections
@@ -22,10 +24,13 @@ window.onscroll = () => {
            // active navbar links
            navLinks.forEach(links => {
             links.classList.remove('active');
-            document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
+            const activeLink = document.querySelector('header nav a[href*=' + id + ']');
+            if (activeLink) {
+              activeLink.classList.add('active');
+            }
            });
            //active section for animation scroll
-           sec.classList.add('show-animate')
+           sec.classList.add('show-animate');
         }
         // if want to use animation scroll that repets on scroll
         else {
@@ -39,14 +44,16 @@ window.onscroll = () => {
     header.classList.toggle('sticky', window.scrollY > 100);
 
     // remove toggle icon and navbar when click navbar links scroll
-    menuIcon.classList.remove('bx-x');
-    navbar.classList.remove('active');
+    if (menuIcon && navbar) {
+      menuIcon.classList.remove('bx-x');
+      navbar.classList.remove('active');
+    }
 
     //anmation footer scroll
     let footer = document.querySelector('footer');
 
     footer.classList.toggle('show-animate', this.innerHeight + this.scrollY >= document.scrollingElement.scrollHeight);
-}
+};
 // animation congrats
 
 const Confettiful = function(el) {
@@ -60,12 +67,11 @@ const Confettiful = function(el) {
     this._setupElements();
     this._renderConfetti();
   };
-  
   Confettiful.prototype._setupElements = function() {
     const containerEl = document.createElement('div');
     const elPosition = this.el.style.position;
     
-    if (elPosition !== 'relative' || elPosition !== 'absolute') {
+    if (elPosition !== 'relative' && elPosition !== 'absolute') {
       this.el.style.position = 'relative';
     }
     
@@ -99,30 +105,30 @@ const Confettiful = function(el) {
   };
   
   
-  function start(){
-    new Confettiful(document.querySelector('.js-container'));
+  function start() {
+    const confettiTarget = document.querySelector('.js-container');
     let congratEl = document.querySelector('.congrats');
-    congratEl.style.display = 'block';
+    if (confettiTarget && congratEl) {
+      new Confettiful(confettiTarget);
+      congratEl.style.display = 'block';
+    }
   }
-  
-  
   let test = document.querySelector('.recruter');
-  test.addEventListener('click', start );
+  if (test) {
+    test.addEventListener('click', start);
+  }
 
   //button endanim
-  
   const endanim = document.querySelector('#endanim');
-  endanim.addEventListener('click',() => {
-    const el = document.querySelector('.congrats');
-  const congratsEl = document.querySelector('.confetti-container');
-    congratsEl.style.display = 'none';
-    el.style.display = 'none';
-  });
-  
-
-  
-  
-
-  
-  
-  
+  if (endanim) {
+    endanim.addEventListener('click', () => {
+      const el = document.querySelector('.congrats');
+      const congratsEl = document.querySelector('.confetti-container');
+      if (congratsEl) {
+        congratsEl.style.display = 'none';
+      }
+      if (el) {
+        el.style.display = 'none';
+      }
+    });
+  }
